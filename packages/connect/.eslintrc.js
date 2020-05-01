@@ -1,5 +1,5 @@
 module.exports = {
-  ignorePatterns: ['test-app/', 'node_modules/'],
+  ignorePatterns: ['test-app/', 'node_modules/', 'i18n.js'],
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
