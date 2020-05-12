@@ -8,6 +8,7 @@ import { persistor } from './store';
 import App from '@components/app';
 import DevStore from './common/dev/store';
 import { setStatsConfig } from '@common/track';
+import '../i18n.js';
 
 const buildApp = (store: ReduxStore | ReturnType<typeof ExtStore>) => {
   setStatsConfig();
